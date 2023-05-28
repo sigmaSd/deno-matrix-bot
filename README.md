@@ -1,5 +1,7 @@
 # Matrix bot with deno
 
+![image](https://github.com/sigmaSd/deno-matrix-bot/assets/22427111/66bc72cf-4ecc-45ea-8ddc-6857a795de9b)
+
 ## Usage
 
 - Copy `config.sample.ts` to `config.ts`
