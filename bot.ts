@@ -9,7 +9,7 @@ const client = matrix.createClient({
 
 // assumes bot_user has this format `@my-bot:matrix.org`
 const bot_name = bot_user.slice(1).split(":")[0];
-// @ts-ignore event
+// @ts-ignore NOTE: why does this not type check
 client.on("event", async (event: matrix.MatrixEvent) => {
   if (event.getType() === "m.room.message") {
     const message: string | undefined = event.event.content?.body;
