@@ -26,3 +26,6 @@ share this bot, use it on your private servers, its just for demo
 - Thats it now you can run the bot and it will respond to mentions
 - To revoke a token in case of a leak, run the client with the token and use
   `client.logout()`. To get a new token use the element ui
+  
+ ## Example
+ checkout https://github.com/sigmaSd/matrix-bot-1/ for a more advanced bot example
